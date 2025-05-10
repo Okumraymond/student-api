@@ -27,13 +27,16 @@ A simple REST API for managing student records, built with Python and Flask.
 2. python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3.pip install -r requirements.txt
+3. pip install -r requirements.txt
 
 4. FLASK_APP=app.py
+
 FLASK_ENV=development
+
 DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
 
-5. flask db upgrade 
+5.```bash 
+ flask db upgrade 
 
 6. **Run the application**:
    ```bash
