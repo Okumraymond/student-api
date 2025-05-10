@@ -25,7 +25,7 @@ A simple REST API for managing student records, built with Python and Flask.
    cd student-api
 
 2. python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  #On Windows: venv\Scripts\activate
 
 3. pip install -r requirements.txt
 
