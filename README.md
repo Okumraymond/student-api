@@ -35,8 +35,7 @@ FLASK_ENV=development
 
 DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
 
-5.```bash 
- flask db upgrade 
+5. flask db upgrade 
 
 6. **Run the application**:
    ```bash
