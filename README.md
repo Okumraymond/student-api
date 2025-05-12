@@ -31,9 +31,9 @@ source venv/bin/activate  #On Windows: venv\Scripts\activate
 
 4. FLASK_APP=app.py
 
-FLASK_ENV=development
+   FLASK_ENV=development
 
-DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
+   DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
 
 5. flask db upgrade 
 
@@ -47,8 +47,8 @@ DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
 ```bash
 make docker-build
 
+Lastly, run the docker image:
 
-8. **Run the docker image**:
-   ```bash
-   export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
-   make docker-run
+```bash
+export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
+make docker-run
