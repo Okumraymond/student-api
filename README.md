@@ -49,7 +49,7 @@ make docker-build
 
 
 
-### Run the Docker Image
+**Run the docker image**:
 ```bash
 export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
 make docker-run
