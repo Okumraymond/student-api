@@ -47,6 +47,8 @@ DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
 ```bash
 make docker-build
 
+
+
 ### Run the Docker Image
 ```bash
 export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
