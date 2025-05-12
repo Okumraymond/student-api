@@ -47,7 +47,7 @@ source venv/bin/activate  #On Windows: venv\Scripts\activate
 ```bash
 make docker-build
 
-Lastly, run the docker image:
+## Lastly, run the docker image:
 
 ```bash
 export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
