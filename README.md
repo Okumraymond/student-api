@@ -48,8 +48,7 @@ DATABASE_URL=postgresql://username:password@localhost:5432/studentdb
 make docker-build
 
 
-
-**Run the docker image**:
-```bash
-export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
-make docker-run
+8. **Run the docker image**:
+   ```bash
+   export DATABASE_URL=postgresql://username:password@hostname:5432/studentdb
+   make docker-run
